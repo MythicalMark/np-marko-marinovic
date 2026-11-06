@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "np-prvi-domaci"
+version = "0.1.0"
+description = "Prvi domaci iz naprednog programiranja"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.6"
+]
+
+[tool.setuptools]
+py-modules = ["prosjecna_cijena"]
+
+[tool.pytest.ini_options]
+python_files = ["test_*.py"]
+testpaths = ["."]
+
+[tool.ruff]
+line-length = 88
