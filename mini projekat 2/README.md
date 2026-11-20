@@ -178,7 +178,6 @@ Tokom izrade projekta korišćen je **ChatGPT (OpenAI)** kao pomoćni AI alat za
 - predlaganje test slučajeva za provjeru osnovnih funkcionalnosti i očekivanih grešaka;
 - izradu tehničke dokumentacije i Mermaid dijagrama u ovom README fajlu.
 
-AI alat je korišćen kao pomoć pri pisanju i organizaciji rješenja, a ne kao zamjena za pokretanje i provjeru programa. Notebook je izvršen u cjelini, a testovi su pokrenuti radi provjere implementacije. Konačno rješenje treba pregledati i razumjeti prije predaje; rezultate i objašnjenja student treba da bude u stanju samostalno da obrazloži.
 
 ## 8. Zaključak
 
@@ -192,12 +191,3 @@ U projektu je implementiran mini okvir za ML eksperimente na Iris skupu podataka
 
 Rješenje je proširivo: moguće je dodati novi model, metriku ili posmatrača bez većih izmjena postojećih komponenti. Sedam testova provjerava osnovne funkcionalnosti i očekivane greške.
 
-## 9. Pokretanje u Google Colab-u
-
-1. Otvoriti [Google Colab](https://colab.research.google.com/).
-2. Izabrati **File → Upload notebook**.
-3. Učitati `Mini_projekat_2_ML_eksperimenti.ipynb`.
-4. Izabrati **Runtime → Run all**.
-5. Ako nedostaje biblioteka, izvršiti `%pip install scikit-learn pandas`.
-
-README i notebook treba čuvati zajedno u istom GitHub repozitorijumu.
